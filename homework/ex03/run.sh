@@ -1,3 +1,3 @@
 
 # Change the following line to meet the requirements outlined in the README.md
-docker help
+docker rmi alpine:3.12
