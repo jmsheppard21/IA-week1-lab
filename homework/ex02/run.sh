@@ -1,3 +1,3 @@
 
 # Change the following line to meet the requirements outlined in the README.md
-docker help
+docker ps -q --filter "label=org=cscc" --format "{{.ID}}"	
